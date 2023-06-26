@@ -1,6 +1,6 @@
-function head(array){
-    return array[0];
-  }
+let head = function(array) {
+  return array[0];
+};
 
 const assertEqual = function(head, expected) {
   if (head === expected) {
@@ -10,5 +10,5 @@ const assertEqual = function(head, expected) {
   }
 };
 
-assertEqual(head([]), 6);
+assertEqual(head([6, 5, 4]), 6);
 assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
