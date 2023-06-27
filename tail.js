@@ -3,9 +3,9 @@ let tail = function(array) {
 };
 const assertEqual = function(tail, expected) {
   if (tail === expected) {
-    console.log(`🎉🎉🎉 Assertion Passed: actual === expected`);
+    console.log(`🎉🎉🎉 Assertion Passed: ${tail} === ${expected}`);
   } else {
-    console.log(`😡😡😡 Assertion Failed: actual !== expected`);
+    console.log(`😡😡😡 Assertion Failed: ${tail} !== ${expected}`);
   }
 };
 const words = ["Yo Yo", "Lighthouse", "Labs"];

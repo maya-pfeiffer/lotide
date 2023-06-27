@@ -4,9 +4,9 @@ let head = function(array) {
 
 const assertEqual = function(head, expected) {
   if (head === expected) {
-    console.log(`🎉🎉🎉 Assertion Passed: actual === expected`);
+    console.log(`🎉🎉🎉 Assertion Passed: ${head} === ${expected}`);
   } else {
-    console.log(`😡😡😡 Assertion Failed: actual !== expected`);
+    console.log(`😡😡😡 Assertion Failed: ${head} !== ${expected}`);
   }
 };
 
