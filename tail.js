@@ -1,5 +1,6 @@
-let tail = function(array) {
-  return array.slice(1);
+const tail = function(array) {
+  let newArray = array.slice(1);
+  return (newArray);
 };
 const assertEqual = function(tail, expected) {
   if (tail === expected) {
@@ -8,6 +9,5 @@ const assertEqual = function(tail, expected) {
     console.log(`😡😡😡 Assertion Failed: ${tail} !== ${expected}`);
   }
 };
-const words = ["Yo Yo", "Lighthouse", "Labs"];
-tail(words); // no need to capture the return value since we are not checking it
-assertEqual(words.length, 3);
+assertEqual(tail([6, 5, 4]), 6);
+assertEqual(tail(["Hello", "Lighthouse", "Labs"]), "Hello");
