@@ -1,18 +1,16 @@
-const letterPositions = function(sentence) {
-  const results = {};
-  let index = 0;
-  for (let letter of sentence) {
-    if (letter !== " ") {
-      if (results[letter]) {
-        results[letter].push(index);
-      } else {
-        results[letter] = [index];
-      }
+const takeUntil = (array, callback) => {
+  let newArray = [];
+  for (let item of array) {
+    if (callback(item)) {
+      break;
     }
-    index++
+    newArray.push(item);
   }
-  return results;
-};
+  return newArray;
+}
+
+const data2 = ["I've", "been", "to", "Hollywood", ",", "I've", "been", "to", "Redwood"];
+const results2 = takeUntil(data2, x => x === ',');
 
 const eqArrays = function(array1, array2) {
   if(array1.length !== array2.length) {
@@ -31,3 +29,5 @@ const assertArraysEqual = function(actual, expected) {
   } 
   console.log(`🎉🎉🎉Assertion Passed: ${actual} !== ${expected}`);
   };
+
+  assertArraysEqual((results2), [ 'I\'ve', 'been', 'to', 'Hollywood' ])
