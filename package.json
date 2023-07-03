@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@maya.pfeiffer/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a mini clone of the Lodash library and is part of my learning and studies at Lighthouse Labs.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/maya-pfeiffer/lotide.git"
   },
-  "author": "",
+  "author": "Maya Pfeiffer mayap93@hotmail.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/maya-pfeiffer/lotide/issues"
