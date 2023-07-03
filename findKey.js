@@ -31,3 +31,5 @@ const result2 = findKey(months, key => key === "July");
 const result3 = findKey(months, key => key.length > 5);
 
 console.log(result1, result2, result3);
+
+

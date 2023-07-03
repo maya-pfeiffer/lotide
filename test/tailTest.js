@@ -9,11 +9,3 @@ describe("#tail", () => {
     assert.deepEqual(tail([13, 55, 78, 333]), [55, 78, 333]); 
   });
 });
-
-
-//const assertEqual = require('../assertEqual');
-//const tail = require('../tail');
-
-//const words = ["Yo Yo", "Lighthouse", "Labs"];
-//console.log(tail(words)); 
-//assertEqual(words.length, 3);

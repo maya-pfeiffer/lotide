@@ -21,3 +21,4 @@ const countLetters = function(string) {
 };
 
 console.log(countLetters("My name is Maya Pfeiffer"));
+

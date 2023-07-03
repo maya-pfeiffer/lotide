@@ -50,3 +50,6 @@ const anotherShirtObject= { size: "medium", color: ["red", "green"]};
 
 let result = eqObjects(shirtObject, anotherShirtObject)
 assertEqual(eqObjects(shirtObject, anotherShirtObject), false);
+
+
+
