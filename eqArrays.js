@@ -18,4 +18,4 @@ const assertEqual = function(eqArrays, expected) {
   }
 };
 
-assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); 
+module.exports = eqArrays;
