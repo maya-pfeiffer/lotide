@@ -9,5 +9,5 @@ const assertEqual = function(tail, expected) {
     console.log(`😡😡😡 Assertion Failed: ${tail} !== ${expected}`);
   }
 };
-assertEqual(tail([6, 5, 4]), 6);
-assertEqual(tail(["Hello", "Lighthouse", "Labs"]), "Hello");
+
+module.exports = tail;
