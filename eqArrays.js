@@ -1,3 +1,5 @@
+const assertEqual = ('./assertEqual');
+
 const eqArrays = function(array1, array2) {
   if(array1.length !== array2.length) {
     return false;
@@ -8,14 +10,5 @@ const eqArrays = function(array1, array2) {
     }
   }return true;
   }
-
-
-const assertEqual = function(eqArrays, expected) {
-  if (eqArrays === expected) {
-    console.log(`🎉🎉🎉 Assertion Passed: ${eqArrays} === ${expected}`);
-  } else {
-    console.log(`😡😡😡 Assertion Failed: ${eqArrays} !== ${expected}`);
-  }
-};
 
 module.exports = eqArrays;
